@@ -61,7 +61,7 @@
 
         .skill {
             background-color: #00ADB5;
-            color: #EEEEEE;
+            color: #222831;
             padding: 10px 20px;
             margin: 5px;
             border-radius: 5px;
@@ -69,7 +69,7 @@
         }
 
         .section-title {
-                color: #EEEEEE;
+                color: #222831;
             font-size: 1.5em;
             font-weight: bold;
             margin-bottom: 20px;
@@ -87,7 +87,7 @@
 
         .project {
             margin-bottom: 15px;
-                color: #EEEEEE;
+                color: #222831;
         }
 
         .project-description {
@@ -99,7 +99,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-                color: #EEEEEE;
+                color: 	#222831;
         }
 
         .personal-project {
@@ -127,7 +127,7 @@
         }
 
         .education-and-certifications li {
-                color: #EEEEEE;
+                color: #222831;
             margin-bottom: 10px;
         }
 
