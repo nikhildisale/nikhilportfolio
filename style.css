@@ -2,7 +2,6 @@
 <head>
 <style>
         body {
-                .li color: #EEEEEE;
             background-color: #EEEEEE;
             color: #7a7e83;
             font-family: 'Roboto', sans-serif;
@@ -13,7 +12,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: #7a7e83
+            background-color: #7a7e83
+            color: #EEEEEE;
             min-height: 100vh;
         }
 
