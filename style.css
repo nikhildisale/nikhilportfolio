@@ -12,14 +12,11 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: #7a7e83
-            color: #EEEEEE;
             min-height: 100vh;
         }
 
         .header {
             background-color: #393E46;
-            color: #222831;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,20 +37,17 @@
         }
 
         .name {
-            color: #EEEEEE;
             font-size: 2.5em;
             font-weight: bold;
             margin-bottom: 10px;
         }
 
         .bio {
-                color: #EEEEEE;
             font-size: 1.2em;
             margin-bottom: 20px;
         }
 
         .skills-summary {
-                color: #EEEEEE;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -62,7 +56,7 @@
 
         .skill {
             background-color: #00ADB5;
-            color: #222831;
+            color: #FFFFFF;
             padding: 10px 20px;
             margin: 5px;
             border-radius: 5px;
@@ -70,7 +64,6 @@
         }
 
         .section-title {
-                color: #222831;
             font-size: 1.5em;
             font-weight: bold;
             margin-bottom: 20px;
@@ -79,7 +72,6 @@
 
         .section {
             background-color: #393E46;
-                color: #EEEEEE;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,24 +80,21 @@
 
         .project {
             margin-bottom: 15px;
-                color: #222831;
         }
 
         .project-description {
             margin-bottom: 10px;
-                color: #EEEEEE;
         }
 
         .personal-projects {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-                color: 	#222831;
         }
 
         .personal-project {
             background-color: #00ADB5;
-            color: #EEEEEE;
+            color: #FFFFFF;
             padding: 10px 20px;
             margin: 5px;
             border-radius: 5px;
@@ -117,24 +106,20 @@
         .education-and-certifications {
             display: flex;
             flex-direction: column;
-                color: #EEEEEE;
         }
 
         .education-and-certifications ul {
-                color: #EEEEEE;
             list-style: none;
             padding: 0;
             margin: 0;
         }
 
         .education-and-certifications li {
-                color: #222831;
             margin-bottom: 10px;
         }
 
         .additional-information {
             background-color: #393E46;
-                color: #EEEEEE;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -196,7 +181,7 @@
 
         .footer {
             background-color: #393E46;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
