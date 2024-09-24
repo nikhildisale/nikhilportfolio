@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+<style>
+        body {
+            background-color: #222831;
+            color: #EEEEEE;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #393E46;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .skills-summary {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .skill {
+            background-color: #00ADB5;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .section {
+            background-color: #393E46;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project-description {
+            margin-bottom: 10px;
+        }
+
+        .personal-projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .personal-project {
+            background-color: #00ADB5;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            width: 200px;
+        }
+
+        .education-and-certifications {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .education-and-certifications ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .education-and-certifications li {
+            margin-bottom: 10px;
+        }
+
+        .additional-information {
+            background-color: #393E46;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .download-resume {
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-resume:hover {
+            background-color: #008CBA;
+        }
+
+        .contact-information {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-information ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-information li {
+            margin-bottom: 10px;
+        }
+
+        .social-media-buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .social-media-button {
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-media-button:hover {
+            background-color: #008CBA;
+        }
+
+        .footer {
+            background-color: #393E46;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .certification {
+            background-color: #00ADB5;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            width: 200px;
+        }
+    </style>
+    </head>
+</html>    
