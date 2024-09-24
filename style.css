@@ -87,6 +87,7 @@
 
         .project {
             margin-bottom: 15px;
+                color: #EEEEEE;
         }
 
         .project-description {
@@ -98,6 +99,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+                color: #EEEEEE;
         }
 
         .personal-project {
@@ -114,6 +116,7 @@
         .education-and-certifications {
             display: flex;
             flex-direction: column;
+                color: #EEEEEE;
         }
 
         .education-and-certifications ul {
