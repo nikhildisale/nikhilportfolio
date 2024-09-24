@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
 <style>
-      body {
+    body {
     background-color: #222831;
-    color: #393E46;
+    color: #EEEEEE;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,10 +17,10 @@
 
 .header {
     background-color: #393E46;
-      color: #222831;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .profile-photo {
@@ -69,6 +69,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .section {
@@ -77,9 +78,10 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 80%;
 }
 
-.project {
+.project, .personal-project, .certification {
     margin-bottom: 15px;
 }
 
@@ -104,11 +106,6 @@
     width: 200px;
 }
 
-.education-and-certifications {
-    display: flex;
-    flex-direction: column;
-}
-
 .education-and-certifications ul {
     list-style: none;
     padding: 0;
@@ -119,12 +116,22 @@
     margin-bottom: 10px;
 }
 
-.additional-information {
-    background-color: #393E46;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 20px;
+}
+
+.certification {
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
 }
 
 .download-resume {
@@ -146,7 +153,6 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .contact-information ul {
@@ -186,24 +192,6 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.certifications {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.certification {
-    background-color: #00ADB5;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    width: 200px;
 }
     </style>
     </head>
